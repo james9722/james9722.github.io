@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.4em;
+    border-bottom: 2px solid #66c0e7;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  section#main img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0 5px 0;
+  }
+  section#main h4 {
+    font-size: 1.1em;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  section#main p{
+    padding: 5px 0 20px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="page2 .html">오늘의 기분</a></li>
+      <li><a href="page3 .html">오늘의 상황</a></li>
+      <li class="active"><a href="page4 .html">오늘의 날씨</a></li>
+      <li><a href="page5.html">최신 노래추천</a></li>
+      <li><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h2>구름이 있을 때</h2>
+    <p><img src="music11.jpg" alt="music11"></p>
+    <h4>Mac miller - circles</h4>
+    <p>잔잔하게 울리는 베이스라인과 부드러운 기타 선율 위에 맥 밀러 특유의 힘을 뺀, 낮고 읊조리는 듯한 보컬이 얹어져 깊은 아련함을 줍니다.</p>
+    
+    <h2>화창할 때</h2>
+    <p><img src="music12.jpg" alt="music12"></p>
+    <h4>Hamzaa - Sunday Morning</h4>
+    <p>제목처럼 일요일 아침의 나른하고 평화로운 분위기를 그대로 담아낸 듯한 부드러운 그루브와 따뜻한 건반 선율이 특징입니다.</p>
+
+    <h2>비가 올 때</h2>
+    <p><img src="music13.jpg" alt="music13"></p>
+    <h4>Oscar Anton - Brown Eyes</h4>
+    <p>낮게 읊조리듯 시작해 후반부로 갈수록 감정이 폭발하듯 고조되는 호소력 짙은 보컬과, 곡의 서사를 극대화하는 서정적이면서도 강렬한 밴드 사운드가 깊은 몰입감을 선사합니다.</p>
+  </section>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>

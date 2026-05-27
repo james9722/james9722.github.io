@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>규엽이의 playlist</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main p{
+    padding: 15px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  section#main h3 {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  aside#phothos{
+    padding: 15px;
+  }
+  aside#phothos h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  aside#phothos img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+  aside#phothos h4 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="page2 .html">오늘의 기분</a></li>
+      <li><a href="page3 .html">오늘의 상황</a></li>
+      <li><a href="page4 .html">오늘의 날씨</a></li>
+      <li><a href="page5.html">최신 노래추천</a></li>
+      <li class="active"><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h1>🎧 최근 들은 플레이리스트</h1>
+    <p>음악은 그날의 공기와 기분을 그대로 담아내는 마법 같아요. 최근 제 플레이리스트를 가득 채운 5곡의 노래들을 기록합니다. 다들 오늘 하루도 화이팅 합시다! 🔥</p>
+
+    <hr style="border: 0; height: 1px; background: #e5e5e5; margin: 15px 0;">
+
+    <h3>1. Minecraft - Sweden</h3>
+    <p><img src="music6.jpg" alt="music6"></p>
+    <p>집중해서 과제를 하거나 코딩을 할 때 무조건 틀어두는 연주곡입니다. 미니멀하고 잔잔한 피아노 선율이 귀를 차분하게 감싸주어 잡생각을 없애고 깊은 몰입감을 선사합니다.</p>
+    
+    <h3>2. Mac Miller - Circles</h3>
+    <p><img src="music11.jpg" alt="music11"></p>
+    <p>나른한 오후나 혼자 조용히 생각에 잠기고 싶을 때 자주 듣습니다. 힘을 빼고 읊조리는 듯한 보컬과 부드러운 기타 선율이 마음을 편안하게 토닥여주는 매력적인 곡입니다.</p>
+
+    <h3>3. G-DRAGON & T.O.P - Oh Yeah (feat. 박봄)</h3>
+    <p><img src="music10.jpg" alt="music10"></p>
+    <p>기분 전환이 필요하거나 신나게 에너지를 채우고 싶을 때 꺼내 듣는 메가 히트곡입니다. 중독성 넘치는 힙합 비트와 트렌디한 랩핑 덕분에 언제 들어도 절로 흥이 납니다.</p>
+
+    <h3>4. 산울림 - 청춘</h3>
+    <p><img src="music7.jpg" alt="music7"></p>
+    <p>하루 일과를 마치고 차분하게 밤을 맞이할 때 생각나는 명곡입니다. 담담하고 진솔한 통기타 선율과 가사가 가슴 깊이 아련한 여운을 남겨주어 마음에 잔잔한 위로를 줍니다.</p>
+
+    <h3>5. Hamzaa - Sunday Morning</h3>
+    <p><img src="music12.jpg" alt="music12"></p>
+    <p>커피 한 잔과 함께 주말 아침의 여유를 만끽할 때 완벽하게 어울리는 소울풀한 알앤비 곡입니다. 따뜻한 건반 소리와 감미로운 음색이 바쁜 일상 속 쌓인 피로를 편안하게 녹여줍니다.</p>
+    
+    <p style="text-align: right; font-style: italic; color: #aaa; font-size: 0.85em; margin-top: 20px;">#뮤직이즈마이라잎 🎵</p>
+  </section>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>

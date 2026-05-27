@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.4em;
+    border-bottom: 2px solid #66c0e7;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  section#main img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0 5px 0;
+  }
+  section#main h4 {
+    font-size: 1.1em;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  section#main p{
+    padding: 5px 0 20px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li class="active"><a href="page2 .html">오늘의 기분</a></li>
+      <li><a href="page3 .html">오늘의 상황</a></li>
+      <li><a href="page4 .html">오늘의 날씨</a></li>
+      <li><a href="page5.html">최신 노래추천</a></li>
+      <li><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h2>기쁠때는</h2>
+    <p><img src="music1.jpg" alt="music1"></p>
+    <h4>다비치 - 팡파레</h4>
+    <p>다비치의 '팡파레'는 사랑에 빠진 설렘และ 행복을 화려하게 터지는 팡파레에 비유한 청량하고 경쾌한 곡입니다. 다비치 특유의 파워풀한 보컬과 리드미컬한 멜로디가 어우러져 듣는 이에게 기분 좋은 에너지를 선사하는 대표적인 힐링 송입니다.</p>
+    
+    <h2>슬플때는</h2>
+    <p><img src="music2.jpg" alt="music2"></p>
+    <h4>정세린 - 마음이 쉬고 싶을 때</h4>
+    <p>자극적인 사운드 없이 오직 맑고 서정적인 피아노 선율로만 채워져 있어, 가만히 듣고 있으면 마음에 쌓인 긴장과 스트레스가 차분히 내려앉는 기분을 선사합니다. 화려한 기교 대신 담담하고 깊이 있게 읊조리는 듯한 연주가 특징입니다.</p>
+
+    <h2>설렐때는</h2>
+    <p><img src="music3.jpg" alt="music3"></p>
+    <h4>SURAN - 러브스토리(feat. 크러쉬)</h4>
+    <p>수란 특유의 매력적이고 유니크한 음색과 크러쉬의 감미로운 보컬이 조화를 이루어, 연애를 시작할 때의 간지럽고 행복한 기분을 극대화합니다. 통통 튀면서도 세련된 멜로디 위에 주고받는 듯한 가사가 더해져, 듣는 내내 몽글몽글한 설렘을 선사하는 대표적인 달콤한 고백 송입니다.</p>
+
+    <h2>화가날때는</h2>
+    <p><img src="music4.jpg" alt="music4"></p>
+    <h4>선우정아 - 도망가자</h4>
+    <p>미니멀한 피아노 선율로 시작해 후반부로 갈 수록 웅장해지는 스트링 사운드가 감정을 고조시키며, 선우정아 특유의 호소력 짙고 깊은 보컬이 듣는 이의 마음을 거칠게 흔들고 이내 따뜻하게 감싸 안아줍니다.</p>
+  
+    <h2>위로가 필요할 때는</h2>
+    <p><img src="music5.jpg" alt="music5"></p>
+    <h4>권진아 - 위로</h4>
+    <p>조용히 읊조리듯 시작하는 권진아 특유의 맑고 담담한 음색이 매력적이며, 후반부로 갈수록 고조되는 감정선이 깊은 울림을 줍니다. "오늘 하루가 내겐 너무 길었죠"라는 첫 구절처럼, 세상에 혼자 남겨진 듯한 외로움과 고단한 하루를 보낸 이들에게 말없이 곁을 지켜주는 듯한 따뜻한 가사가 특징입니다.</p>
+  </section>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 20px 0 5px 0;
+  }
+  section#main h4 {
+    font-size: 1.1em;
+    color: #222;
+    margin-bottom: 8px;
+    margin-top: 5px;
+  }
+  section#main p{
+    padding: 5px 0 10px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="page2 .html">오늘의 기분</a></li>
+      <li><a href="page3 .html">오늘의 상황</a></li>
+      <li><a href="page4 .html">오늘의 날씨</a></li>
+      <li class="active"><a href="page5.html">최신 노래추천</a></li>
+      <li><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <p><img src="music14.jpg" alt="music14"></p>
+    <h4>nothing but thieves - Evolution</h4>
+    <p>기존의 거친 얼터너티브 록 스타이일에 세련된 80년대 신스웨이브와 디스코 비트를 과감하게 접목하여, 밴드의 음악적 '진화(Evolution)'를 직관적으로 보여줍니다.</p>
+    
+    <p><img src="music15.jpg" alt="music15"></p>
+    <h4>le sserafim - boompala</h4>
+    <p>클럽 댄스풍의 세련되고 묵직한 베이스라인과 "보옴팔라"가 반복되는 중독성 넘치는 훅이 특징으로, 듣는 순간 심박수를 높이며 에너지를 풀충전해 줍니다.</p>
+
+    <p><img src="music16.jpg" alt="music16"></p>
+    <h4>bibi - bumpa</h4>
+    <p>비비 특유의 날것 그대로의 파격적이고 독보적인 음색에, 심장을 울리는 묵직한 베이스와 통통 튀는 중독성 있는 비트가 더해진 것이 특징입니다.</p>
+  </section>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>

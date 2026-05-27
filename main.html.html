@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>규엽이의 playlist</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main p{
+    padding: 15px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  section#main h3 {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  aside#phothos{
+    padding: 15px;
+  }
+  aside#phothos h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  aside#phothos img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+  aside#phothos h4 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="page2 .html">오늘의 기분</a></li>
+      <li><a href="page3 .html">오늘의 상황</a></li>
+      <li><a href="page4 .html">오늘의 날씨</a></li>
+      <li><a href="page5.html">최신 노래추천</a></li>
+      <li><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h1>규엽이의 playlist 추천</h1>
+    <p>음악은 그날의 공기와 기분을 그대로 담아내는 마법 같아요. 최근 제 마음을 스쳐 간 노래들을 기록합니다. 다들 오늘 하루도 화이팅 합시다! 🔥</p>
+
+    <hr style="border: 0; height: 1px; background: #e5e5e5; margin: 15px 0;">
+
+    <h3>🌧️ 비 오는 날, 눈물 대신 빗방울</h3>
+    <p>오늘처럼 비가 오는 날에는 확실히 잔잔한 음악이 끌리네요. 권진아의 '위로'나 선우정아의 '도망가자'를 들으며 쓸쓸한 마음을 가만히 다독여봅니다. 이건 눈물이 아니라 빗방울입니다. 💧</p>
+    
+    <h3>🔥 분노가 치밀어 오를 때</h3>
+    <p>가끔 답답하고 화가 날 땐 가슴을 뻥 뚫어주는 강렬한 비트가 최고죠. Linkin Park의 'Faint'나 지코의 'Extreme'을 크게 틀어놓고 내면의 에너지를 완전히 연소시키곤 합니다. 락앤롤!</p>
+
+    <h3>💻 몰입과 집중이 필요한 순간</h3>
+    <p>공부나 과제를 할 때는 가사 없는 음악이 정답이더라고요. 마인크래프트의 'Sweden'이나 Lofi Girl의 잔잔한 비트를 배경음악처럼 깔아두면 잡생각이 사라지고 코딩 효율도 팍팍 올라갑니다.</p>
+    
+  </section>
+
+  <aside id="phothos" class="c_m_12 c_3">
+    <h2>오늘의 신곡</h2>
+    <ul>
+      <li>
+        <img src="Ego.jpg" alt="Ego">
+        <h4>Ego - The warning</h4>
+      </li>
+      <li>
+        <img src="heaven and hell.jpg" alt="heaven and hell">
+        <h4>heaven and hell - wave to earth</h4>
+      </li>
+    </ul>
+  </aside>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>

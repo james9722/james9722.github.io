@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style-type: none;
+  }
+  body{
+    font-family: "맑은 고딕", "돋움";
+    font-size: 100%;
+    background-color: #fcfcfc;
+  }
+  [class*= "c_"]{
+    float: left;
+    width: 100%;
+  }
+  [class*= "c_"]{
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px){
+    .c_m_3{width: 25%;}
+    .c_m_9{width: 75%;}
+    .c_m_12{width: 100%;}
+  }
+  @media only screen and (min-width: 768px){
+    .c_3{width: 25%;}
+    .c_6{width: 50%;}
+    .c_12{width: 100%;}
+  }
+  
+  header {
+    height: 80px;
+    padding: 20px;
+    background-color: #66c0e7;
+    color: #ffffff;
+  }
+  
+  aside#menu {
+    padding: 15px 5px;
+  }
+  
+  aside#menu li {
+    padding: 12px 15px;
+    margin: 6px 0;
+    background-color: #f0f8ff;
+    border: 1px solid #e0e8f0;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  aside#menu li:hover {
+    background-color: #e1f0fa;
+  }
+  
+  aside#menu li.active {
+    background-color: #4aa8d4;
+    border-color: #3b97c3;
+  }
+
+  aside#menu a {
+    color: #444444;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+
+  aside#menu li.active a {
+    color: #ffffff;
+  }
+  
+  section#main{
+    padding: 15px;
+  }
+  section#main h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.4em;
+    border-bottom: 2px solid #66c0e7;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  section#main img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0 5px 0;
+  }
+  section#main h4 {
+    font-size: 1.1em;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  section#main p{
+    padding: 5px 0 20px 0;
+    font-size: 0.95em;
+    line-height: 150%;
+    color: #555;
+  }
+  
+  footer {
+    height: 60px;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #777;
+    font-size: 0.85em;
+  }
+</style>
+</head>
+<body>
+
+  <header class="c_12">
+    <h1>규엽이의 playlist</h1>
+  </header>
+     
+  <aside id="menu" class="c_m_3 c_3">
+    <ul>
+      <li><a href="page2 .html">오늘의 기분</a></li>
+      <li class="active"><a href="page3 .html">오늘의 상황</a></li>
+      <li><a href="page4 .html">오늘의 날씨</a></li>
+      <li><a href="page5.html">최신 노래추천</a></li>
+      <li><a href="page6 .html">최근 들은 음악</a></li>
+    </ul>
+  </aside>
+
+  <section id="main" class="c_m_9 c_6">
+    <h2>집중이 필요할 때</h2>
+    <p><img src="music6.jpg" alt="music6"></p>
+    <h4>Minecraft - Sweden</h4>
+    <p>미니멀하고 잔잔한 피아노 선율로 시작해 후반부로 갈수록 몽환적인 신디사이저 패드 사운드가 서서히 쌓여가는 구성을 가지고 있습니다.</p>
+    
+    <h2>퇴근할 때</h2>
+    <p><img src="music7.jpg" alt="music7"></p>
+    <h4>산울림 - 청춘</h4>
+    <p>김창완 특유의 담담하면서도 읊조리는 듯한 보컬과 거친 듯 소박한 통기타 선율이 어우러져, 뒤돌아볼 새도 없이 덧없이 흘러가 버리는 '청춘'에 대한 아쉬움และ 쓸쓸함을 극대화합니다.</p>
+
+    <h2>드라이브 할 때</h2>
+    <p><img src="music8.jpg" alt="music8"></p>
+    <h4>리도어 - 검은 하늘 아래</h4>
+    <p>낮게 읊조리듯 시작해 후반부로 갈수록 감정이 폭발하듯 고조되는 호소력 짙은 보컬과, 곡의 서사를 극대화하는 서정적이면서도 강렬한 밴드 사운드가 깊은 몰입감을 선사합니다.</p>
+
+    <h2>운동할 때</h2>
+    <p><img src="music9.jpg" alt="music9"></p>
+    <h4>HONNE - Warm On a Cold Night</h4>
+    <p>마치 심장 박동처럼 느리고 묵직하게 깔리는 비트와 몽환적인 일렉트로닉 선율, 그리고 보컬 앤디 클러터벅의 낮고 부드러운 목소리가 어우러져 독보적으로 밤에 어울리는 도시적인 감성을 만들어냅니다.</p>
+  
+    <h2>파티일 때</h2>
+    <p><img src="music10.jpg" alt="music10"></p>
+    <h4>G-DRAGON & T.O.P - Oh Yeah(feat.박봄)</h4>
+    <p>지드래곤과 탑의 대조적이면서도 조화로운 랩핑과 박봄 특유의 매력적이고 파워풀한 보컬이 어우러져 곡의 중독성을 극대화합니다.</p>
+  </section>
+
+  <footer class="c_12">
+    COPYRIGHT(C) 루바토 All Rights Reserved.
+  </footer>
+
+</body>
+</html>
